@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Sriracha&display=swap');
+
+textarea{
+    width: 90%;
+    display: block;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 97%;
+}
+#btn{
+    text-align: center;
+}
+#output{
+    width: 90%;
+    display: block;
+    margin: 1rem;
+    border: 2px solid black;
+    opacity: 1;
+    height: 11rem;
+    font-size: 1 rem;
+    background-color: white;
+    font-weight: bold;
+    width: 97%;
+}
+.title{
+    background-color: yellowgreen;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    border-radius: 5px;
+}
+body{
+    margin: 0px;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Sriracha', cursive;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+#btn-translate{
+    background-color: yellowgreen;
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Sriracha', cursive;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+textarea::placeholder {
+    font-weight: bold;
+    font-family: 'Marck Script', cursive;
+    font-family: 'Sriracha', cursive;
+    opacity: .5;
+    font-size: 1rem;
+    color: red;
+}
+
+.ou-title{
+    text-align: center;
+    color: yellowgreen;
+}
+.footer{
+    background-color: yellowgreen;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1em;
+    padding: 20px;
+    border-radius: 5px;
+}
+.non_bullet{
+    list-style: none;
+    /* text-align: center; */
+    margin: auto;
+}
+.list-inline-item{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.link{
+    padding: 1rem 1rem;
+    color: rgb(148, 0, 0);
+    text-decoration: underline;
+}
+ul{
+    padding-inline-start: 0px;
+}
